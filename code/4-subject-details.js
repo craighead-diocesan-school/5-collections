@@ -13,6 +13,7 @@ function showSubject() {
 }
 
 function changeSubject() {
-  let newName = prompt()
+  let newName = 'Typing Skills'
+
   subject.name = newName
 }

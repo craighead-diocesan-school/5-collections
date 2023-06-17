@@ -6,10 +6,10 @@ let jobs = [
   'astronaut',
   'firefighter',
   'police officer',
-  'judge',
+  'space doctor',
 ]
 
-function futureJob() {
+function getJob() {
   let index = 0
 
   alert('Your future job will be' + jobs[0])

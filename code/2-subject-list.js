@@ -7,20 +7,20 @@ let subjects = [
   'Digital Technology',
 ]
 
+function showSubjects() {
+  alert(subjects)
+}
+
 function addSubject() {
   let newSubject = 'Maths'
 
-  // add a new subject to the end of the subjects array
+  // add a new item to the end of the subjects array
   subjects.push(newSubject)
-
-  alert(subjects)
 }
 
 function removeSubject() {
   let index = 0
 
-  // remove 1 subject at the index position of the subjects array
+  // remove 1 item at the index position of the subjects array
   subjects.splice(index, 1)
-
-  alert(subjects)
 }

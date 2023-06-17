@@ -22,30 +22,33 @@
     </header>
 
     <main class="section">
+      <h2 class="subtitle">Collections</h2>
+
       <div class="columns">
 
-         <!-- Column -->
-         <section class="column">
-          
+         <div class="column">
           <h3 class="subtitle"> 1 - Future Job <em>(Array Intro)</em> </h3> 
-          <button class="button is-light is-danger" onclick="futureJob()"> Future Job </button>
-          <hr>
+          <button class="button is-light is-danger" onclick="getJob()"> What will my job be? </button>
+         </div>
 
-          <h3 class="subtitle"> 2 - Subject List <em>(Array Add/Delete)</em> </h3> 
-          <button class="button is-light is-danger" onclick="addSubject()"> Add Subject </button>
-          <button class="button is-light is-danger" onclick="removeSubject()"> Remove Subject </button>
-          <hr>
+         <div class="column">
+           <h3 class="subtitle"> 2 - Subject List <em>(Array Add/Delete)</em> </h3> 
+           <button class="button is-light is-success" onclick="showSubjects()"> Show Subjects </button>
+           <button class="button is-light is-danger" onclick="addSubject()"> Add Subject </button>
+           <button class="button is-light is-danger" onclick="removeSubject()"> Remove Subject </button>
+         </div>
 
-          <h3 class="subtitle"> 3 - Number Search <em>(Array Loop)</em> </h3> 
-          <button class="button is-light is-danger" onclick="numberSearch()"> Number Search </button>
-          <hr>
+         <div class="column">
+           <h3 class="subtitle"> 3 - Number Search <em>(Array Loop)</em> </h3> 
+           <button class="button is-light is-danger" onclick="searchNumbers()"> Search for a number </button>
+         </div>
 
-          <h3 class="subtitle"> 4 - Subject Details <em>(Objects Intro)</em> </h3> 
-          <button class="button is-light is-danger" onclick="showSubject()"> Show Subject </button>
-          <button class="button is-light is-danger" onclick="changeSubject()"> Change Subject </button>
-          <hr>
-
-        </section>
+         <div class="column">
+           <h3 class="subtitle"> 4 - Subject Details <em>(Objects Intro)</em> </h3> 
+           <button class="button is-light is-danger" onclick="showSubject()"> Show Subject </button>
+           <button class="button is-light is-danger" onclick="changeSubject()"> Change Subject </button>
+           <button class="button is-light is-danger" onclick="changeTeacher()"> Change Teacher </button>
+         </div>
 
       </div>
     </main>
@@ -61,4 +64,11 @@
       </div>
     </footer>
   </body>
+
+  <style>
+    button {
+      display: block !important;
+      margin-top: 0.5em;
+    }
+  </style>
 </html>
